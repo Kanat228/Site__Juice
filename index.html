@@ -2,35 +2,50 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+
+	<!-- Подключение веб-шрифтов -->
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 	<title>Juice</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="img/favicon1.jpg" type="image/jpg">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
 </head>
 <body>
-	<header class="header">
+
+<!-- ......................... 
+
+Header 
+
+.......................... -->
+
+	<header class="header"><a name="header"></a>
 		<div class="container">
 			<nav class="nav-wrapper">
 				<div class="logo"><span>Тропический</span> Сад</div>
-
 				<ul class="nav">
 					<li class="nav__item">
-						<a class="nav__link" href="#">Главная</a>
+						<a class="nav__link" href="#header"><i class="fa fa-home" aria-hidden="true"></i>Главная</a>
 					</li>
 					<li class="nav__item">
-						<a class="nav__link" href="#">Каталог</a>
+						<a class="nav__link" href="#afisha-block"><i class="fa fa-list" aria-hidden="true"></i>Каталог</a>
 					</li>
 					<li class="nav__item">
-						<a class="nav__link" href="#">Отзывы</a>
+						<a class="nav__link" href="#equipment-block"><i class="fa fa-commenting" aria-hidden="true"></i>Отзывы</a>
 					</li>
 					<li class="nav__item">
-						<a class="nav__link" href="#">О нас</a>
+						<a class="nav__link" href="#about-us-block"><i class="fa fa-building" aria-hidden="true"></i>О нас</a>
 					</li>
 					<li class="nav__item">
-						<a class="nav__link" href="#">Контакты</a>
+						<a class="down" href="#footer-form-block"><i class="fa fa-address-book" aria-hidden="true"></i>Контакты</a>
+						<ul class="submenu">
+							<li class="list"><a class="list__a" href="https://2gis.kz" target="_blank">Достык, д.14</a></li>
+							<li class="list"><a class="list__a" href="#">+7 777 22 44 333</a></li>
+							<li class="list"><a class="list__a" href="https://instagram.com" target="_blank">Тропический Сад</a></li>
+						</ul>
 					</li>
-				</ul>
+				</ul>					
 			</nav>
 
 			<div class="header-content">
@@ -51,9 +66,13 @@
 		</div>
 	</header> 
 
+<!-- ......................... 
 
+Афиша 
 
-	<div class="afisha-block">
+.......................... -->
+
+	<div class="afisha-block"><a name="afisha-block"></a>
 		<div class="div-content">
 			<div class="block-head">
 				<div class="title">Популярные
@@ -101,8 +120,13 @@
 		</div>
 	</div>
 
+<!-- ......................... 
 
-	<div class="equipment-block">
+Отзывы 
+
+.......................... -->
+
+	<div class="equipment-block"><a name="equipment-block"></a>
 		<div class="container1">
 			<div class="block-head">
 				<div class="title">
@@ -111,7 +135,7 @@
 					<span>зарядился бодростью</span>
 				</div>
 				<div class="descriptor">Самые яркие отзывы не менее ярких покупателей нашей продукции.</div>
-				<div class="rotate-text">отзывы</div>
+				<div class="rotate-text1">отзывы</div>
 			</div>
 		</div>
 		<div class="slider">
@@ -158,9 +182,13 @@
 		</div>
 	</div>
 
+<!-- ......................... 
 
+О нас 
 
-	<div class="about-us-block">
+.......................... -->
+
+	<div class="about-us-block"><a name="about-us-block"></a>
 		<div class="container2">
 			<span class="page-line dark" style="height: 768px; overflow: hidden; data-height="768></span>
 			<div class="block-head">
@@ -169,7 +197,7 @@
 					<br>
 					<span>лучшими из лучших</span>
 				</div>
-				<div class="rotate-text">о нас</div>
+				<div class="rotate-text2">о нас</div>
 			</div>
 			<div class="video-block">
 				<div class="video" data-cursor="cursor-play" data-src="https://www.youtube.com/watch?time_continue=1&v=y1FgZsE0D-s&feature=emb_logo">
@@ -198,9 +226,13 @@
 		</div>
 	</div>
 
+<!-- ......................... 
 
+Footer 
 
-	<div class="footer-form-block" style="background: url(img/8.jpg) center center / cover no-repeat; height: 722px;">
+.......................... -->
+
+	<div class="footer-form-block" style="background: url(img/8.jpg) center center / cover no-repeat; height: 722px;"><a name="footer-form-block"></a>
 		<div class="footer-container">
 			<span class="page-line page-line1 light"></span>
 			<span class="page-line page-line2 light"></span>
@@ -283,16 +315,16 @@
 	</div>
 	<div class="socials">
 		<a href="https://facebook.com/" target="_blank">
-			<img src="img/fb-white.png" class="default">
-			<img src="img/fb-color.png" class="hovered">
+			<img src="img/facebook.png" class="default">
+			<img src="img/facebook.png" class="hovered">
 		</a>
 		<a href="https://vk.com" target="_blank">
-			<img src="img/vk-white.png" class="default">
-			<img src="img/vk-color.jpg" class="hovered">
+			<img src="img/vk.png" class="default">
+			<img src="img/vk.png" class="hovered">
 		</a>
-		<a href="https://instagram.com" target="_blank">
-			<img src="img/instagram-white.png" class="default">
-			<img src="img/instagram-color.png" class="hovered">
+		<a href="https://twitter.com" target="_blank">
+			<img src="img/twitter.png" class="default">
+			<img src="img/twitter.png" class="hovered">
 		</a>
 	</div>
 </div>
